@@ -15,11 +15,11 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: "Pastelarica Delivery",
-      description: language === 'pt' ? "Plataforma de delivery moderna e focada em performance para a Pastelarica, com cardápio online inteligente, carrinho dinâmico e fluxo ágil para pedidos via WhatsApp." : "Modern and performance-focused delivery platform for Pastelarica with a smart online menu, dynamic cart, and streamlined order flow via WhatsApp.",
+      title: "Pastelarica Delivery 2.0",
+      description: language === 'pt' ? "Plataforma de delivery moderna e focada em performance para a Pastelarica (Versão 2.0), com cardápio online inteligente, carrinho dinâmico e fluxo ágil para pedidos via WhatsApp." : "Modern and performance-focused delivery platform for Pastelarica (Version 2.0) with a smart online menu, dynamic cart, and streamlined order flow via WhatsApp.",
       techStack: ["React", "TypeScript", "TailwindCSS", "Vite"],
-      githubLink: "https://github.com/Klebsuchan/delivery",
-      liveLink: "https://pastelarica-delivery.vercel.app/",
+      githubLink: "https://github.com/Klebsuchan/Pastelarica2.0",
+      liveLink: "https://pastelaricadelivery.vercel.app",
       accent: "from-orange-500 to-red-600",
       offset: ["50px", "-100px"]
     },
@@ -73,10 +73,9 @@ export default function Portfolio() {
       description: language === 'pt' ? "Site institucional altamente otimizado para o setor educacional. Estruturado para fortalecer a imagem da escola e facilitar a comunicação com os pais." : "Highly optimized institutional website for the education sector. Structured to bolster school credibility and streamline parent communication.",
       techStack: ["TypeScript", "React", "TailwindCSS", "Framer Motion"],
       githubLink: "https://github.com/Klebsuchan/site-escola-cora-o-de-m-e",
-      liveLink: "https://escolacoracaodemae.vercel.app/",
+      liveLink: "https://site-escola-coracao-de-mae.vercel.app/",
       accent: "from-pink-500 to-rose-600",
-      offset: ["150px", "-250px"],
-      disableIframe: true
+      offset: ["150px", "-250px"]
     },
     {
       title: "E-book Bolo de Pote",
@@ -97,13 +96,85 @@ export default function Portfolio() {
       offset: ["100px", "-150px"]
     },
     {
-      title: "Projetos de Histórias de Amor",
-      description: language === 'pt' ? "Série de landing pages interativas construídas para casais (Harrisson & Kali, Léo & Vanessa, Maiara & Marcelo). Focadas em memorabilidade, animações fluidas e storytelling interativo." : "A series of customized digital experiences designed specifically for couples. Focused on emotional memorability, fluid animations, and storytelling.",
-      techStack: ["Frontend", "Animações Web", "UI/UX", "Vercel"],
-      githubLink: "https://github.com/Klebsuchan/Uma-hist-ria-de-amor-Maiara-e-Marcelo-",
-      liveLink: "https://nossa-hist-ria-de-amor-5wyz.vercel.app/",
-      accent: "from-red-400 to-pink-600",
+      title: "Point do Dog PF",
+      description: language === 'pt' ? "Plataforma de delivery online moderna, garantindo rapidez e eficiência no fluxo de pedidos e visualização do cardápio." : "Modern online delivery platform, ensuring speed and efficiency in the order flow and menu visualization.",
+      techStack: ["React", "TypeScript", "TailwindCSS"],
+      githubLink: "https://github.com/Klebsuchan/pointdodogpf",
+      liveLink: "https://pointdodogpf.vercel.app",
+      accent: "from-red-500 to-orange-600",
+      offset: ["50px", "-100px"]
+    },
+    {
+      title: "A Sorte te Guia",
+      description: language === 'pt' ? "Sistema para campanhas e sorteios digitais, com interface atrativa focada em engajamento e experiência de usuário fluida." : "System for digital campaigns and giveaways, featuring an attractive interface focused on engagement and fluid user experience.",
+      techStack: ["React", "TypeScript", "TailwindCSS"],
+      githubLink: "https://github.com/Klebsuchan/a-sorte-te-guia",
+      liveLink: "https://a-sorte-te-guia.vercel.app",
+      accent: "from-yellow-400 to-green-600",
+      offset: ["150px", "-250px"]
+    },
+    {
+      title: "Braian & Stefani - História de Amor",
+      description: language === 'pt' ? "Página interativa focada em storytelling, construída para celebrar memorabilidade e romance de casais." : "Interactive storytelling page built to celebrate romance and memorability for couples.",
+      techStack: ["Frontend", "UI/UX", "TailwindCSS"],
+      githubLink: "https://github.com/Klebsuchan/Braian-e-Stefani---uma-hist-ria-de-amor",
+      liveLink: "https://braian-e-stefani-uma-historia-de-am.vercel.app",
+      accent: "from-rose-400 to-pink-600",
       offset: ["200px", "-300px"]
+    },
+    {
+      title: "Harrisson & Kali",
+      description: language === 'pt' ? "Experiência digital personalizada dedicada a documentar uma história de amor com design elegante." : "Custom digital experience dedicated to documenting a love story with elegant design.",
+      techStack: ["React", "TailwindCSS"],
+      githubLink: "https://github.com/Klebsuchan/Harrisson-e-Kali-",
+      liveLink: "https://harrisson-e-kali.vercel.app",
+      accent: "from-pink-500 to-purple-600",
+      offset: ["100px", "-150px"]
+    },
+    {
+      title: "Léo & Vanessa",
+      description: language === 'pt' ? "Landing page animada e sensível focada na jornada de amor e parceria do casal." : "Animated and sensitive landing page focused on the couple's journey of love and partnership.",
+      techStack: ["Frontend", "UI/UX"],
+      githubLink: "https://github.com/Klebsuchan/L-o-e-Vanessa",
+      liveLink: "https://leo-vanessa.vercel.app",
+      accent: "from-red-400 to-rose-500",
+      offset: ["50px", "-100px"]
+    },
+    {
+      title: "Nossa História de Amor",
+      description: language === 'pt' ? "Layout romântico e imersivo concebido para preservar recordações e a trajetória de afeto de casais." : "Immersive romantic layout designed to preserve memories and the affectionate trajectory of couples.",
+      techStack: ["React", "Vercel"],
+      githubLink: "https://github.com/Klebsuchan/Nossa-hist-ria-de-amor-",
+      liveLink: "https://nossa-hist-ria-de-amor-six.vercel.app",
+      accent: "from-fuchsia-500 to-pink-700",
+      offset: ["150px", "-250px"]
+    },
+    {
+      title: "Enterprise Bkmdc",
+      description: language === 'pt' ? "Portfólio corporativo anterior para apresentação de software e arquitetura limpa." : "Previous corporate portfolio for software presentation and clean architecture.",
+      techStack: ["React", "TypeScript", "TailwindCSS"],
+      githubLink: "https://github.com/Klebsuchan/Enterprise-Bkmdc",
+      liveLink: "https://portfolio-braian-three.vercel.app",
+      accent: "from-blue-600 to-indigo-800",
+      offset: ["200px", "-300px"]
+    },
+    {
+      title: "Portfólio Profissional (V1)",
+      description: language === 'pt' ? "Primeira versão de um portfólio digital profissional destacando experiências de frontend e engenharia." : "First version of a professional digital portfolio highlighting frontend and engineering experiences.",
+      techStack: ["Frontend", "UI/UX"],
+      githubLink: "https://github.com/Klebsuchan/Portf-lio-profissional-",
+      liveLink: "https://portf-lio-profissional-henna.vercel.app",
+      accent: "from-slate-600 to-gray-800",
+      offset: ["100px", "-200px"]
+    },
+    {
+      title: "Pastelarica Delivery (V1)",
+      description: language === 'pt' ? "Primeira versão da plataforma de delivery focada em vendas de pastéis com suporte a WhatsApp." : "Initial version of the delivery platform focused on pastry sales with WhatsApp support.",
+      techStack: ["React", "TailwindCSS"],
+      githubLink: "https://github.com/Klebsuchan/Pastelarica-Delivery",
+      liveLink: "https://pastelarica-delivery.vercel.app",
+      accent: "from-amber-500 to-orange-700",
+      offset: ["50px", "-150px"]
     }
   ];
 
@@ -145,77 +216,49 @@ export default function Portfolio() {
           </a>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => {
-            const parallaxY = useTransform(scrollYProgress, [0, 1], project.offset);
-            return (
-              <motion.div
-                style={{ y: parallaxY }}
-                key={index}
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                viewport={{ once: true, margin: "-50px" }}
-                transition={{ duration: 0.6 }}
-                className="group relative bg-white/[0.02] rounded-3xl overflow-hidden border border-white/10 hover:border-white/30 transition-colors duration-500 will-change-transform flex flex-col h-full backdrop-blur-sm"
-              >
-                <div className={`h-64 w-full bg-gradient-to-br ${project.accent} group-hover:brightness-110 transition-all flex items-center justify-center relative overflow-hidden`}>
-                  {project.liveLink && project.liveLink !== '#' && !(project as any).disableIframe ? (
-                    <div className="absolute inset-0 w-full h-full pointer-events-none opacity-40 group-hover:opacity-100 transition-opacity duration-500" style={{ background: '#000' }}>
-                       <iframe src={project.liveLink} className="absolute left-1/2 top-0 origin-top border-none w-[1280px] h-[800px]" style={{ transform: 'translateX(-50%) scale(0.32)' }} title={project.title} loading="lazy" />
-                    </div>
-                  ) : (
-                    <>
-                      <motion.div 
-                        style={{ scale: useTransform(scrollYProgress, [0, 1], [1, 1.2]) }}
-                        className="absolute inset-0 bg-black/40 backdrop-blur-[2px]" 
-                      />
-                      <div className="absolute inset-0 bg-[radial-gradient(#000_1px,transparent_1px)] [background-size:24px_24px] opacity-30 mix-blend-overlay" />
-                    </>
-                  )}
-                  <div className="absolute bottom-6 left-6 pr-6 p-4 rounded-2xl bg-black/60 backdrop-blur-md border border-white/10 z-10 transition-transform duration-300 group-hover:translate-y-[-5px]">
-                    <h3 className="text-2xl font-black text-white leading-tight font-display tracking-tight">
-                      {project.title}
-                    </h3>
-                  </div>
-                </div>
+        <div className="flex flex-col gap-6">
+          {projects.map((project, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-50px" }}
+              transition={{ duration: 0.6, delay: index * 0.1 }}
+              className="group relative bg-white/[0.02] p-6 md:p-8 rounded-3xl border border-white/10 hover:border-white/30 transition-colors duration-500 flex flex-col md:flex-row md:items-center justify-between gap-6 backdrop-blur-sm"
+            >
+              <div className="flex-1">
+                <h3 className="text-2xl font-black text-white leading-tight font-display tracking-tight mb-2">
+                  {project.title}
+                </h3>
+                <p className="text-slate-400 text-sm md:text-base mb-4 leading-relaxed font-light max-w-3xl">
+                  {project.description}
+                </p>
                 
-                <div className="p-6 sm:p-8 flex flex-col flex-1">
-                  <p className="text-slate-400 text-sm mb-8 leading-relaxed font-light">
-                    {project.description}
-                  </p>
-                  
-                  <div className="flex flex-wrap gap-2 mb-10">
-                    {project.techStack.map((tech, i) => (
-                      <span key={i} className="px-3 py-1.5 bg-white/5 text-cyan-300 text-xs font-bold tracking-widest uppercase rounded border border-white/10">
-                        {tech}
-                      </span>
-                    ))}
-                  </div>
-                  
-                  <div className="flex items-center gap-4 mt-auto">
-                    <a 
-                      href={project.githubLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex-1 inline-flex justify-center items-center gap-2 px-4 py-3 bg-white/10 hover:bg-white hover:text-black text-white rounded-xl text-xs font-bold uppercase tracking-widest transition-all border border-white/20"
+                <div className="flex flex-wrap gap-2">
+                  {project.techStack.map((tech, i) => (
+                    <span 
+                      key={i}
+                      className="px-3 py-1.5 bg-white/5 text-cyan-300 text-xs font-bold tracking-widest uppercase rounded border border-white/10"
                     >
-                      <Github className="w-4 h-4" />
-                      {t('portfolio.sourceCode')}
-                    </a>
-                    <a 
-                      href={project.liveLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="w-12 h-12 inline-flex items-center justify-center bg-cyan-500/10 hover:bg-cyan-500 hover:text-black text-cyan-400 rounded-xl transition-colors border border-cyan-500/30"
-                      title="Live Preview"
-                    >
-                      <ExternalLink className="w-5 h-5" />
-                    </a>
-                  </div>
+                      {tech}
+                    </span>
+                  ))}
                 </div>
-              </motion.div>
-            );
-          })}
+              </div>
+              
+              <div className="flex items-center gap-4 mt-6 md:mt-0 shrink-0">
+                <a 
+                  href={project.githubLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 px-6 py-3 bg-white/10 hover:bg-white hover:text-black text-white rounded-xl transition-all border border-white/20 font-bold uppercase tracking-widest text-xs w-full md:w-auto justify-center"
+                >
+                  <Github className="w-4 h-4" />
+                  {t('portfolio.sourceCode')}
+                </a>
+              </div>
+            </motion.div>
+          ))}
         </div>
       </div>
     </section>

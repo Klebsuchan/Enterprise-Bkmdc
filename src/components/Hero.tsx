@@ -150,7 +150,7 @@ export default function Hero() {
             transition={{ type: "spring", stiffness: 200, damping: 20, delay: 0.3 }}
             className="w-32 h-32 sm:w-40 sm:h-40 md:w-44 md:h-44 rounded-full overflow-hidden border-4 border-white/10 shadow-[0_0_40px_rgba(6,182,212,0.3)] mb-8 z-20"
           >
-            <img src="/braian.jpg" alt="Braian Kleber" className="w-full h-full object-cover" />
+            <img src="/braianfoto.png" alt="Braian Kleber" className="w-full h-full object-cover" />
           </motion.div>
 
           <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-md text-cyan-300 text-sm font-medium mb-8 uppercase tracking-widest shadow-[0_0_30px_rgba(6,182,212,0.2)]">
